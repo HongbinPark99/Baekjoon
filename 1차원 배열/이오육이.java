@@ -4,7 +4,6 @@ public class 이오육이 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        
 
         int[] input = new int[9];
         int max = 0;
@@ -18,6 +17,7 @@ public class 이오육이 {
                 cnt = i + 1;
             }
         }
+        in.close();
         System.out.println(max);
         System.out.println(cnt);
     }
