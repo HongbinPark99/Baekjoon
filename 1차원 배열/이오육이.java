@@ -5,15 +5,15 @@ public class 이오육이 {
 
         Scanner in = new Scanner(System.in);
 
-        int[] input = new int[9];
+        int[] arr = new int[9];
         int max = 0;
         int cnt = 0;
         for (int i = 0; i < 9; i++) {
-            input[i] = in.nextInt();
+            arr[i] = in.nextInt();
         }
         for (int i = 0; i < 9; i++) {
-            if (input[i] > max) {
-                max = input[i];
+            if (arr[i] > max) {
+                max = arr[i];
                 cnt = i + 1;
             }
         }

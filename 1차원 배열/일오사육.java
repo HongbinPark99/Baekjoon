@@ -6,7 +6,7 @@ public class 일오사육 {
 
         Scanner in = new Scanner(System.in);
 
-        double arr[] = new double[in.nextInt()];
+        double[] arr = new double[in.nextInt()];
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.nextDouble();

@@ -5,7 +5,7 @@ public class 팔구오팔 {
 
         Scanner in = new Scanner(System.in);
 
-        String arr[] = new String[in.nextInt()];
+        String[] arr = new String[in.nextInt()];
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.next();
